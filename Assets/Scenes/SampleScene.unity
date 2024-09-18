@@ -333,7 +333,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.23016551, g: 0.46091634, b: 0.20312619, a: 1}
+  m_Color: {r: 0.8059299, g: 0.5682487, b: 0.10318508, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -450,6 +450,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3841204872649723468, guid: 4b7d7c7cbd47afb43890a5771f939266, type: 3}
   m_PrefabInstance: {fileID: 1403839492}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &442093976 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1879614326518222637, guid: 6dab6ff2d9591cb42bfd5a5ea92b4484, type: 3}
+  m_PrefabInstance: {fileID: 1266159835}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &480422433 stripped
 Transform:
@@ -1196,6 +1201,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 126539778}
+  - {fileID: 442093976}
   m_Father: {fileID: 938400950}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &997691617
@@ -1323,19 +1329,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 988739537}
     m_Modifications:
     - target: {fileID: 1879614326518222637, guid: 6dab6ff2d9591cb42bfd5a5ea92b4484, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.862873
+      value: 3.0956483
       objectReference: {fileID: 0}
     - target: {fileID: 1879614326518222637, guid: 6dab6ff2d9591cb42bfd5a5ea92b4484, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.3659967
+      value: -2.5207896
       objectReference: {fileID: 0}
     - target: {fileID: 1879614326518222637, guid: 6dab6ff2d9591cb42bfd5a5ea92b4484, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.032670926
+      value: 0.06534185
       objectReference: {fileID: 0}
     - target: {fileID: 1879614326518222637, guid: 6dab6ff2d9591cb42bfd5a5ea92b4484, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2424,4 +2430,3 @@ SceneRoots:
   - {fileID: 938400950}
   - {fileID: 386731140}
   - {fileID: 802233639}
-  - {fileID: 1266159835}
